@@ -1,0 +1,139 @@
+.workTitle{
+    padding-left: 50px;
+    height:20%;
+    width:600px;
+}
+
+.Title{
+    height:30px;
+    width:300px;
+
+}
+
+.mainform {
+    display: flex;
+    height:20%;
+    width:1500px;
+    /* background-color: hwb(0 71% 6%); */
+}
+
+.formlabel{
+    /* width: 100%; */
+    padding: 0.3em;
+    font: 30px/24px sans-serif;
+    /* background-color: hwb(0 71% 6%); */
+    color:#020801;
+    text-align:Center;
+} 
+
+
+.WorkForm {
+    position: relative;
+    width: 15%;
+    height:30%;
+    margin: 40px 3%;
+    border-radius: 20%; 
+    background-color: silver;
+}
+
+.RestForm {
+    position: relative;
+    width: 15%;
+    height:30%;
+    margin: 40px 3%;
+    border-radius: 20%; 
+    background-color: silver;
+}
+
+
+
+.WorkForm input[type='number'] {
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 7%);
+    border: 5px solid #1b2538;
+    border-radius: 4px;
+    /* background-color: antiquewhite; */
+}
+
+.RestForm input[type='number'] {
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.3em;
+    transition: 0.3s;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 7%);
+    border: 5px solid #1b2538;
+    border-radius: 4px;
+}
+
+.work {
+    display: flex;
+
+}
+
+.rest {
+    display: flex;
+
+}
+
+.work input[type='number'] {
+    /* border: 5px solid #da3c41; */
+    outline: none;
+    /* background-color: hwb(0 71% 6%); */
+    display: flex;
+    border-radius: 20%; 
+}
+
+.rest input[type='number'] {
+    /* border: 5px solid #da3c41; */
+    outline: none;
+    /* background-color: hwb(0 71% 6%); */
+    display: flex;
+    border-radius: 20%; 
+}
+
+.work label{
+    font: bold;
+
+}
+.rest label{
+    font: bold;
+
+}
+
+
+
+.buttons {
+    display: flex;
+}
+
+
+.buttons label {
+    display: block;
+    width: 150px;
+    background: #c8eac3;
+    color: #000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: silver;
+}
+/* 
+.buttons input:checked+label {
+    background: #1a720d;
+    color: #FFF;
+} */
+
+.buttons input {
+    display: none;
+}
